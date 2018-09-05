@@ -41,4 +41,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="1b162186-8cbd-4d0e-98ea-20d7578652ed">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <commands uuid="624df293-cf2c-46fc-b0f6-68a45562539e">
+    <name>ПечатьСправочника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать справочника</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

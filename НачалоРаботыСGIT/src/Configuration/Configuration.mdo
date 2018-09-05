@@ -32,4 +32,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.СчетНаОплату</documents>
 </mdclass:Configuration>
