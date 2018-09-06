@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22d4b2b4-f16c-43c0-ab21-19b11b10dd37">
+  <producedTypes>
+    <managerType typeId="963c42e0-f73f-4fbf-a62c-216aad9256a8" valueTypeId="6cf4de82-7e83-4c85-a870-db965f6df41c"/>
+    <valueManagerType typeId="fc570406-7879-4e8c-b750-a8d0610092f4" valueTypeId="42d64484-f0cd-439a-9bae-bb7fba028081"/>
+  </producedTypes>
+  <name>УчетПоСкладам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет по складам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
