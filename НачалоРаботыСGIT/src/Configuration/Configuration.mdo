@@ -33,4 +33,5 @@
   </languages>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.СчетНаОплату</documents>
+  <reports>Report.ОтчетПоНоменклатуре</reports>
 </mdclass:Configuration>
