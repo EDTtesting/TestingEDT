@@ -31,6 +31,7 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <constants>Constant.УчетПоСкладам</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ТипыЦен</catalogs>
   <documents>Document.СчетНаОплату</documents>
