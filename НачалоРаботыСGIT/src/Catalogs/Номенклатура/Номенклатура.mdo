@@ -32,6 +32,46 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="76714f4a-3327-4286-9555-b82d6275ad7f">
+    <producedTypes>
+      <objectType typeId="4c16ec28-5689-4128-8544-01235306bc5d" valueTypeId="5baf16c9-b5c7-42a8-afc6-65cb90e85f5c"/>
+      <rowType typeId="7c217ea3-fd0b-43e7-acd4-59de63ce65f0" valueTypeId="671c25c3-50f5-4970-b37d-444c9b49bda8"/>
+    </producedTypes>
+    <name>Цены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены</value>
+    </synonym>
+    <attributes uuid="e9f0fa10-f23e-4892-aa89-1ac88652e2e6">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="aee666b3-c4b4-4831-b030-7788f1a7e204">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
   <forms uuid="e6427f2f-cf41-458f-af01-1668467c034a">
     <name>ФормаЭлемента</name>
     <synonym>
