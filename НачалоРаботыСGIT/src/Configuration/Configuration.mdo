@@ -32,6 +32,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ТипыЦен</catalogs>
   <documents>Document.СчетНаОплату</documents>
   <reports>Report.ОтчетПоНоменклатуре</reports>
 </mdclass:Configuration>
