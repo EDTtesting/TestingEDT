@@ -34,6 +34,11 @@
   <constants>Constant.УчетПоСкладам</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ТипыЦен</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Организация</catalogs>
   <documents>Document.СчетНаОплату</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <enums>Enum.ВидНоменклатуры</enums>
   <reports>Report.ОтчетПоНоменклатуре</reports>
 </mdclass:Configuration>

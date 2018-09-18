@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5df60c6-cabb-4942-b3c5-0cb0f6d92b90">
+  <producedTypes>
+    <objectType typeId="43378e8c-a0c9-4e16-88bf-1f9ef1cb2c2e" valueTypeId="8cc0fcef-9ed2-4e59-bafb-9e4287065713"/>
+    <refType typeId="94005301-d275-4908-99f0-1a6876f1df5c" valueTypeId="06562b94-dfb1-46ba-90c5-abe1d216d443"/>
+    <selectionType typeId="afda55b8-57fa-443c-8659-38689a3a4e7a" valueTypeId="65b66b11-a7e5-4b06-b393-1ff7dcc0ff78"/>
+    <listType typeId="f8a61d2e-2966-40cf-b24c-a5e1b60b9fad" valueTypeId="ce02348e-141a-420b-b946-6e64ca51feaa"/>
+    <managerType typeId="23e5eb17-eeb4-4fc8-bec6-06891028620c" valueTypeId="4668554e-3ca7-487d-a029-515eed8afc4d"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="45490959-94c3-47bc-bc88-2695ef9bcc2c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организация</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
